@@ -41,9 +41,9 @@ layers:
   - P
   - .
   - {t: ',', s: <}
-  - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
-  - LGUI
+  - {t: '-', s: _}
+  - $$mdi:apple-keyboard-caps$$
+  - NUMBER
   - {t: SYMBOL, h: toggle}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:keyboard-space$$
@@ -107,9 +107,9 @@ layers:
   - Fn
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: ',', s: <}
-  - KP 7
-  - KP 8
-  - KP 9
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -122,9 +122,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - .
-  - KP 4
-  - KP 5
-  - KP 6
+  - '4'
+  - {t: '5', s: '%'}
+  - '6'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -135,13 +135,13 @@ layers:
   - 'Ctl+:'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
+  - {t: '0', s: )}
+  - '1'
+  - '2'
+  - '3'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -209,3 +209,39 @@ combos:
 - p: [32, 37]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [GRAPHITE]
+- p: [44, 37]
+  k: F1
+  l: [NUMBER]
+- p: [44, 38]
+  k: F2
+  l: [NUMBER]
+- p: [44, 39]
+  k: F3
+  l: [NUMBER]
+- p: [44, 23]
+  k: F4
+  l: [NUMBER]
+- p: [44, 24]
+  k: F5
+  l: [NUMBER]
+- p: [44, 25]
+  k: F6
+  l: [NUMBER]
+- p: [44, 8]
+  k: F7
+  l: [NUMBER]
+- p: [44, 9]
+  k: F8
+  l: [NUMBER]
+- p: [44, 10]
+  k: F9
+  l: [NUMBER]
+- p: [44, 36]
+  k: F10
+  l: [NUMBER]
+- p: [44, 22]
+  k: F11
+  l: [NUMBER]
+- p: [44, 7]
+  k: F12
+  l: [NUMBER]
