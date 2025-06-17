@@ -76,6 +76,78 @@
             key-positions = <32 37>;
             layers = <0>;
         };
+
+        f1 {
+            bindings = <&kp F1>;
+            key-positions = <44 37>;
+            layers = <2>;
+        };
+
+        f2 {
+            bindings = <&kp F2>;
+            key-positions = <44 38>;
+            layers = <2>;
+        };
+
+        f3 {
+            bindings = <&kp F3>;
+            key-positions = <44 39>;
+            layers = <2>;
+        };
+
+        f4 {
+            bindings = <&kp F4>;
+            key-positions = <44 23>;
+            layers = <2>;
+        };
+
+        f5 {
+            bindings = <&kp F5>;
+            key-positions = <44 24>;
+            layers = <2>;
+        };
+
+        f6 {
+            bindings = <&kp F6>;
+            key-positions = <44 25>;
+            layers = <2>;
+        };
+
+        f7 {
+            bindings = <&kp F7>;
+            key-positions = <44 8>;
+            layers = <2>;
+        };
+
+        f8 {
+            bindings = <&kp F8>;
+            key-positions = <44 9>;
+            layers = <2>;
+        };
+
+        f9 {
+            bindings = <&kp F9>;
+            key-positions = <44 10>;
+            layers = <2>;
+        };
+
+        f10 {
+            bindings = <&kp F10>;
+            key-positions = <44 36>;
+            layers = <2>;
+        };
+
+        f11 {
+            bindings = <&kp F11>;
+            key-positions = <44 22>;
+            layers = <2>;
+        };
+
+        f12 {
+            bindings = <&kp F12>;
+            key-positions = <44 7>;
+            layers = <2>;
+        };
     };
 
     keymap {
@@ -84,10 +156,10 @@
         default_layer {
             display-name = "GRAPHITE";
             bindings = <
-&kp ESCAPE    &kp B  &kp L  &kp D     &kp W  &kp Z                           &none         &kp SQT    &kp F      &kp O       &kp U      &kp J     &kp BSPC
-&kp TAB       &kp N  &kp R  &kp T     &kp S  &kp G                    &none  &none  &none  &kp Y      &kp H      &kp A       &kp E      &kp I     &kp DELETE
-&kp LEFT_GUI  &kp Q  &kp X  &kp M     &kp C  &kp V           &none           &none         &kp K      &kp P      &kp PERIOD  &kp COMMA  &kp FSLH  &kp ESC
-                            &kp LGUI  &to 1  &sk LEFT_SHIFT                                &kp SPACE  &kp LCTRL  &kp RALT
+&kp ESCAPE    &kp B  &kp L  &kp D  &kp W  &kp Z                           &none         &kp SQT    &kp F      &kp O       &kp U      &kp J      &kp BSPC
+&kp TAB       &kp N  &kp R  &kp T  &kp S  &kp G                    &none  &none  &none  &kp Y      &kp H      &kp A       &kp E      &kp I      &kp DELETE
+&kp LEFT_GUI  &kp Q  &kp X  &kp M  &kp C  &kp V           &none           &none         &kp K      &kp P      &kp PERIOD  &kp COMMA  &kp MINUS  &kp CAPS
+                            &mo 2  &to 1  &sk LEFT_SHIFT                                &kp SPACE  &kp LCTRL  &kp RALT
             >;
         };
 
@@ -104,10 +176,10 @@
         Numbers {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none   &none      &mo 3                          &none         &kp COMMA        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none  &trans
-&trans  &kp PRINTSCREEN    &none            &none   &none      &kp SLASH               &none  &none  &none  &kp PERIOD       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none  &trans
-&trans  &kp K_COPY         &kp K_PASTE      &none   &kp MINUS  &kp LC(COLON)  &none           &none         &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none  &trans
-                                            &trans  &trans     &trans                                       &trans           &trans           &trans
+&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none   &none      &mo 3                          &none         &kp COMMA   &kp N7        &kp N8        &kp N9        &none  &trans
+&trans  &kp PRINTSCREEN    &none            &none   &none      &kp SLASH               &none  &none  &none  &kp PERIOD  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none  &trans
+&trans  &kp K_COPY         &kp K_PASTE      &none   &kp MINUS  &kp LC(COLON)  &none           &none         &kp N0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &trans
+                                            &trans  &trans     &trans                                       &trans      &trans        &trans
             >;
         };
 
