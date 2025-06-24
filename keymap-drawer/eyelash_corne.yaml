@@ -128,8 +128,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - COPY
-  - PASTE
+  - AC COPY
+  - AC PASTE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '-', s: _}
   - 'Ctl+:'
