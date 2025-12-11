@@ -102,8 +102,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&Window'
+  - '&Bax'
   - Fn
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: ',', s: <}
